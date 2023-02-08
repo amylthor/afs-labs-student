@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: app-deployment
-        image:  harbor.dev.afsmtddso.com/athorne-harbor-project/lab-env-repo:1.0
+        image: harbor.dev.afsmtddso.com/athorne-harbor-project/app@sha256:9bdc65cbd7a2a15ec2b3d660928271b2857e36066569b91b995b93add63bc472
         ports:
         - containerPort: 5000
