@@ -1,4 +1,4 @@
---Database
+--Database file
 -- PostgreSQL database dump
 --
 
